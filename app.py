@@ -18,7 +18,7 @@ app.config.update(ACTIONS_MAPPING_CONFIG)
 
 # Error handlers.
 @app.errorhandler(ResponseHandlerException)
-def handle_bad_http_request(err):
+def handle_response_handle_exception(err):
     return jsonify({"error": f"Response handler exception. ERROR: {str(err)}"}),\
            400, {}
 
