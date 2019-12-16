@@ -1,0 +1,3 @@
+service: coco-houndify-connector
+
+runtime: python37
